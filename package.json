@@ -1,0 +1,11 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mark Kollasch <markikollasch@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "cypress": "^3.0.2"
+  }
+}
