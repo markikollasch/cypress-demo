@@ -2,8 +2,11 @@
 
 I present some of our learnings from working with [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html).
 
-Currently, it just consists of the built-in examples.
-I'll probably write a few that interact with [TodoMVC](http://todomvc.com/) or something.
+Mostly I will demonstrate the basic facilities using the provided examples.
+However, I have written a custom command for filling in a labeled input.
+Use `yarn http-server` to make accessible a page demonstrating it,
+then `yarn cypress open` or `yarn cypress run` to run the test.
+Check in `demo.spec.js` for usage and `commands.js` for the definition.
 
 Some points I want to cover are:
 - The runner UI
